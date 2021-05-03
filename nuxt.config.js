@@ -77,9 +77,6 @@ export default {
   build: {},
 
   env: {
-    BASE_API_URL:
-      process.env.NODE_ENV == 'production'
-        ? 'https://lulusseleksi.herokuapp.com'
-        : 'http://192.168.1.7:3001',
+    BASE_API_URL: process.env.BASE_API_URL
   },
 };
