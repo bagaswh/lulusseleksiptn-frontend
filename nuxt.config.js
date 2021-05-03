@@ -77,6 +77,6 @@ export default {
   build: {},
 
   env: {
-    BASE_API_URL: process.env.BASE_API_URL
+    BASE_API_URL: process.env.BASE_API_URL,
   },
 };
